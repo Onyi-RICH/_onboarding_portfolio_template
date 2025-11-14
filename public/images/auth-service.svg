@@ -1,0 +1,23 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root{
+      --bg:#F8FAFC; --surface:#FFFFFF; --stroke:#E5E7EB;
+      --fg:#1F2937; --muted:#6B7280;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0B1220; --surface:#111827; --stroke:#1F2937;
+        --fg:#E5E7EB; --muted:#9CA3AF;
+      }
+    }
+    .bg{fill:var(--bg)} .surface{fill:var(--surface);stroke:var(--stroke)}
+    .muted{stroke:var(--muted)} .fg{fill:var(--fg)}
+  </style>
+  <rect width="800" height="450" class="bg"></rect>
+  <rect x="16" y="16" width="768" height="418" rx="18" class="surface" stroke-width="2"></rect>
+  <g transform="translate(250,90)">
+    <path d="M150 0l130 45v105c0 88-130 132-130 132S20 338 20 250V45L150 0z" class="surface" stroke-width="2"></path>
+    <rect x="110" y="110" width="80" height="72" rx="12" fill="none" class="muted" stroke-width="10"></rect>
+    <path d="M130 110v-18a20 20 0 0 1 40 0v18" fill="none" class="muted" stroke-width="10" stroke-linecap="round"></path>
+  </g>
+</svg>
