@@ -24,8 +24,8 @@ export const profile: Profile = {
 
   location: "Berlin, Germany",
   email: "csonkityg@gmail.com",
-  lookingFor: "QA / SDET roles in Germany / Europe (remote or hybrid)",
-  avatar: "/images/avatar.jpg",
+  lookingFor: "QA / SDET roles in Europe (remote or hybrid)",
+  avatar: "/images/avatar.svg",
   resumeUrl: "https://www.linkedin.com/in/goran-csonkity",
   skills: [
     // Core Languages & Runtime
