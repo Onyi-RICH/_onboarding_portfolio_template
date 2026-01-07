@@ -9,51 +9,56 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Testing Platform & CI Stability",
+    title: "GitHub Issues ETL Pipeline",
     description:
-      "Built end-to-end testing infrastructure across JavaScript and Python services. Authored Jest unit/integration suites, Playwright E2E flows, and smoke checks to stabilize CI pipelines and improve reliability.",
-    tags: ["Playwright", "Jest", "Pytest", "CI/CD", "Automation"],
+      "Built a Dockerized Apache Airflow ETL pipeline to ingest and process nested GitHub API data. Reduced processing overhead by 40% using incremental loading and watermarking. Ensured 99%+ pipeline reliability through structured logging, automated retries, and Airflow Secrets Management. Modeled complex JSON responses into an analytical schema supporting historical event tracking and idempotent loads.",
+    tags: ["Python", "Apache Airflow", "ETL / ELT", "Incremental Loading", "REST APIs", "PostgreSQL", "Docker", "Structured Logging",],
+    repo: "https://github.com/Onyi-RICH/github-issues-airflow-etl",
     image: "/images/project-placeholder.svg",
   },
   {
-    title: "Authentication Service",
+    title: "Berlin Library Geospatial Data Pipeline",
     description:
-      "Microservice handling user authentication with Fastify, JWT, and shared schema validation. Implemented secure login and refresh token flow, integrated Dockerized Postgres, and added route-level test coverage.",
-    tags: ["Fastify", "JWT", "Docker", "PostgreSQL", "Zod", "Kafka"],
-    image: "/images/project-placeholder.svg",
-    repo: "https://github.com/MaliLala/layered-auth-service",
+      "Engineered a Python and GeoPandas data pipeline extracting 150+ geospatial records from OpenStreetMap. Improved dataset completeness from 60% to 95% through automated address enrichment using the Nominatim API. Enforced 100% coordinate accuracy with validation scripts and PostgreSQL constraints to ensure spatial data integrity.",
+    tags: [
+      "Python",
+      "GeoPandas",
+      "Geospatial Data",
+      "API Integration",
+      "PostgreSQL",
+      "Data Validation",
+      "OpenStreetMap",
+    ],
+    repo: "https://github.com/Onyi-RICH/OSM-berlin-poi-libraries-pipeline",
   },
+
   {
-    title: "User Management Service",
+    title: "NYC Education Data ETL & Analytics Pipeline",
     description:
-      "Service responsible for user profiles, relations, and metadata. Integrated Zod-based validation, added Kafka event publishing, and maintained consistency between services in a shared architecture.",
-    tags: ["Fastify", "PostgreSQL", "Kafka", "Zod", "Docker"],
-    image: "/images/project-placeholder.svg",
-    repo: "https://github.com/MaliLala/layered-users-service",
+      "Developed a multi-stage ETL pipeline processing 4+ public education datasets using Python and PostgreSQL. Designed custom validation schemas and optimized analytical data models. Delivered actionable insights on school safety trends and SAT performance patterns through structured, analysis-ready tables.",
+    tags: [
+      "Python",
+      "PostgreSQL",
+      "ETL Pipelines",
+      "Data Modeling",
+      "Data Validation",
+      "Analytics",
+    ],
+    repo: "https://github.com/Onyi-RICH/nyc-schools-analysis",
   },
+
   {
-    title: "Web Client",
+    title: "Retail Demand Forecasting Application",
     description:
-      "Frontend built with React and Remix, providing a unified interface for multiple microservices. Contributed to authentication flow, reusable UI components, and automated testing using Playwright and Vitest.",
-    tags: ["React", "Remix", "TypeScript", "Tailwind CSS", "Playwright", "Vitest"],
-    image: "/images/project-placeholder.svg",
-    repo: "https://github.com/MaliLala/layered-web-client",
-  },
-  {
-    title: "Instagram Clone",
-    description:
-      "Full-stack social media demo app with Fastify backend and React frontend. Implemented Reels, Tagged, and Highlights modules using TDD and Zod schemas, plus component and API tests.",
-    tags: ["React", "Fastify", "TypeScript", "Zod", "Tailwind CSS", "Vitest"],
-    image: "/images/project-placeholder.svg",
-    link: "https://insta-clone-react-frontend.vercel.app",
-    repo: "https://github.com/MaliLala/insta-clone-react-frontend",
-  },
-  {
-    title: "MarketMate Test Automation",
-    description:
-      "Migrated a Selenium + PyTest suite to Playwright with a clean Page Object Model. Added reliable waits, CI-ready fixtures, and coverage for login, reviews, and shipping cost flows.",
-    tags: ["Playwright", "Python", "Pytest", "POM", "CI/CD"],
-    image: "/images/project-placeholder.svg",
-    repo: "https://github.com/MaliLala/MarketMateTestAutomation",
+      "Built a demand forecasting solution to predict daily unit sales per store-item-date for a large Ecuadorian grocery retailer. Trained time-series and machine learning models and deployed an interactive Streamlit application to support inventory planning and promotion decisions.",
+    tags: [
+      "Python",
+      "Machine Learning",
+      "Time Series Forecasting",
+      "Scikit-learn",
+      "Streamlit",
+      "Demand Forecasting",
+    ],
+    repo: "https://github.com/Onyi-RICH/retail-demand-forcasting",
   },
 ];
