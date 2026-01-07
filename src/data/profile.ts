@@ -17,81 +17,80 @@ export type Profile = {
 };
 
 export const profile: Profile = {
-  name: "Goran Csonkity",
-  role: "QA Engineer / SDET",
+  name: "Onyinyechi C. Ugba",
+  role: "Data Science & Data Engineering Intern",
   summary:
-    "QA-focused engineer building and testing web apps with TypeScript, React, Fastify, and Playwright. I value clean architecture, TDD, and practical automation that adds confidence. I enjoy helping new interns get started and sharing what I’ve learned along the way.",
+    "Data professional with 6+ years of experience across financial data management, analytics, and business intelligence. Skilled in building end-to-end data pipelines, machine learning models, and analytics solutions that improve data quality, operational efficiency, and decision-making. I enjoy working at the intersection of data, business, and engineering to turn complex information into actionable insights.",
 
-  location: "Berlin, Germany",
-  email: "csonkityg@gmail.com",
-  lookingFor: "QA / SDET roles in Europe (remote or hybrid)",
+  location: "Göttingen, Germany",
+  email: "onyi.ugba@outlook.com",
+  lookingFor: " Immediate Full-Time Opportunities (Data Science, Data Engineering)",
   avatar: "/images/avatar.svg",
-  resumeUrl: "https://www.linkedin.com/in/goran-csonkity",
+  resumeUrl: "https://www.linkedin.com/in/onyi-ugba/",
   skills: [
-    // Core Languages & Runtime
-    "TypeScript",
-    "JavaScript (ES6+)",
-    "Python",
-    "Node.js",
+   // Core Languages & Scripting
+  "Python (Pandas, SQLAlchemy, GeoPandas, Scikit-learn)",
+  "SQL",
+  "Bash / Shell Scripting",
 
-    // Frontend
-    "React",
-    "Next.js",
-    "Zustand",
-    "Tailwind CSS",
-    "HTML5 / CSS3",
+  // Data Engineering & Pipelines
+  "ETL / ELT Pipelines",
+  "Incremental Loading",
+  "Apache Airflow",
+  "Workflow Orchestration",
+  "Data Quality & Validation",
 
-    // Backend & APIs
-    "Fastify",
-    "REST APIs",
-    "JWT Authentication",
-    "Zod Validation",
+  // Databases & Data Modeling
+  "PostgreSQL",
+  "Database Design",
+  "Schema Modeling",
+  "Data Constraints",
+  "SQL Performance Optimization",
 
-    // Databases & Data
-    "PostgreSQL",
-    "SQL",
-    "Dockerized Postgres",
-    "Migrations",
+  // APIs & Data Integration
+  "REST APIs",
+  "API Integration",
+  "Rate Limiting",
+  "Geocoding APIs (Nominatim)",
 
-    // Messaging / Streaming
-    "Kafka",
-    "Event-driven Architecture",
+  // DevOps & Infrastructure
+  "Docker",
+  "Containerized Data Services",
+  "Secrets Management",
+  "Structured Logging",
 
-    // Testing & QA
-    "Playwright",
-    "Vitest",
-    "Jest",
-    "Pytest",
-    "Selenium (legacy)",
-    "TDD / BDD",
-    "Integration Testing",
-    "E2E Testing",
-    "CI/CD Pipelines",
+  // Version Control & CI/CD
+  "Git",
+  "GitHub",
+  "GitHub Actions",
+  "CI/CD Pipelines",
 
-    // DevOps & Tools
-    "Docker",
-    "Git / GitHub",
-    "GitHub Actions",
-    "VS Code",
-    "Linux",
-    "Shell / CLI Tools",
+  // Analytics & Machine Learning
+  "Statistical Analysis",
+  "Predictive Modeling",
+  "Scikit-learn",
+  "Applied Machine Learning",
+  "Experimental Design",
+  "Model Evaluation & Validation",
 
-    // Patterns & Practices
-    "Clean Architecture",
-    "Page Object Model (POM)",
-    "Microservices",
-    "Schema Submodules",
-    "Test Strategy Design",
+  // Engineering Practices
+  "Reproducible Data Workflows",
+  "Documentation & Data Lineage",
+  "Monitoring & Debugging",
 
-    // Collaboration
-    "Onboarding Support for New Interns",
-    "Knowledge Sharing",
-    "Team Communication",
-    "Cross-functional Collaboration"
+  // Collaboration & Professional Skills
+  "Pragmatic Problem Solving",
+  "Critical Thinking & Troubleshooting",
+  "Cross-Functional Collaboration",
+  "Technical Documentation",
+  "Attention to Detail",
+  "Stakeholder Communication",
+  "Decision Support Analytics",
+  "Continuous Learning & Growth Mindset"
   ],
   links: [
-    { label: "GitHub", href: "https://github.com/MaliLala" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/goran-csonkity" },
-    { label: "Email", href: "mailto:csonkityg@gmail.com" },
+    { label: "GitHub", href: "https://github.com/Onyi-RICH" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/onyi-ugba/" },
+    { label: "Email", href: "onyi.ugba@outlook.com" },
   ],
 };
